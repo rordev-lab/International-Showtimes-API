@@ -5,5 +5,6 @@ Rails.application.routes.draw do
       resources :queue_jobs
     end
   end
+  mount RailsPerformance::Engine, at: 'rails/performance'
   # root 'movies#index'
 end

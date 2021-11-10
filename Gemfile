@@ -51,3 +51,7 @@ gem "vcr"
 gem "webmock"
 
 gem 'rails-controller-testing'
+
+group :development, :production do
+  gem 'rails_performance'
+end

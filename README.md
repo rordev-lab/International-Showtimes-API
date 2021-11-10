@@ -24,6 +24,11 @@ CreateMovieJob.perform_later(Movie.last)
 #For task 4
 For API auth you can pass HEADER = password
 
+#For task 5
+Added rails performance with the help of gem 'rails_performance'
+you can check performance using http://localhost:3000/rails/performance/
+
+
 #For task 6
 Added Movie model rspec
 Added Movie controller rspec
