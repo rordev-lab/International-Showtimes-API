@@ -1,4 +1,11 @@
-For API auth you can pass HEADER = password
+* Ruby version
+    ruby 3.0.1
+
+* Rails version
+    Rails 6.1.4
+
+
+For API auth you can pass HEADER = "password"
 
 #For task 1
 Add movie data in create POST request
