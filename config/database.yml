@@ -1,0 +1,21 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: ror_task_production
+  pool: 5
+  host: localhost
+  username: postgres
+  password: rails
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: ror_task_production
+  pool: 5
+  host: localhost
+  username: postgres
+  password: rails
